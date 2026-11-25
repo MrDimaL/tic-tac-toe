@@ -238,17 +238,17 @@ The untrained baseline scored 851/272/877 in Classic and 1018/0/982 in Infinite 
 
 ```text
 tic-tac-toe/
-  localization/       en.tsv, ru.tsv, загрузчик словарей
-  gui/                окно игры, статистика, обучение, Canvas-графики
+  localization/       en.tsv, ru.tsv, dictionary loader
+  gui/                game window, statistics, training, Canvas plots
   src/                environment.py, agent.py, training.py
-  models/             две готовые модели, CSV, evaluation.json
-  docs/               разбор исходного архива и протокол проверок
-  tests/              правила, RL, дообучение, проверка GUI
-  play.py             обычный запуск
-  train.py            отдельное окно обучения
+  models/             two ready-made models, CSV, evaluation.json
+  docs/               source archive analysis and verification protocol
+  tests/              rules, RL, fine-tuning, GUI checks
+  play.py             standard launch
+  train.py            separate training window
   README.md
   requirements.txt
-  data/               создаётся во время работы
+  data/               created at runtime
 ```
 
 Core tests and a Tkinter integration test were run on macOS and Windows. Linux were not executed in this environment; the code uses portable standard-library APIs.
