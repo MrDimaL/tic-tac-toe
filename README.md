@@ -141,7 +141,6 @@ tic-tac-toe/
   gui/                окно игры, статистика, обучение, Canvas-графики
   src/                environment.py, agent.py, training.py
   models/             две готовые модели, CSV, evaluation.json
-  docs/               разбор исходного архива и протокол проверок
   tests/              правила, RL, дообучение, проверка GUI
   play.py             обычный запуск
   train.py            отдельное окно обучения
@@ -242,7 +241,6 @@ tic-tac-toe/
   gui/                game window, statistics, training, Canvas plots
   src/                environment.py, agent.py, training.py
   models/             two ready-made models, CSV, evaluation.json
-  docs/               source archive analysis and verification protocol
   tests/              rules, RL, fine-tuning, GUI checks
   play.py             standard launch
   train.py            separate training window
