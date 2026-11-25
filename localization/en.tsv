@@ -1,0 +1,83 @@
+app_title	Tic-Tac-Toe | RL Lab
+brand	TIC-TAC-TOE
+subtitle	A small board. A learning opponent.
+setup	MATCH SETUP
+rules	Rule set
+classic	Classic
+infinite	Infinite
+mode	Players
+hvm	Human vs Machine
+mvm	Machine vs Machine
+hvh	Human vs Human
+side	Your side
+language	Language
+speed	Machine delay (ms)
+new_game	New game
+restart	Restart round
+pause	Pause
+resume	Resume
+step	One machine move
+stats	RL statistics
+train	Train / continue
+models	MODELS
+load_x	Load X
+load_o	Load O
+save_x	Save X
+save_o	Save O
+model_info	{side}: {episodes:,} episodes | {states:,} states
+score	SESSION SCORE
+score_value	X {x}    /    Draw {draw}    /    O {o}
+clear_score	Reset score
+turn	{side} to move
+win	{side} wins
+draw	Draw
+limit	Draw - 120-move limit
+paused	Game paused
+move_number	MOVE {n:02d}
+human	Human
+machine	RL agent
+classic_hint	Make a line of three. X always starts.
+infinite_hint	Only 3 symbols per side. The numbered 1 disappears on your next move.
+age_legend	1 = oldest   3 = newest
+active_rules	{rules} / {mode}
+help	How to play
+help_text	Click an empty cell to move. X always starts. Select your side and press New game. In Infinite, your oldest symbol is removed after placing a fourth; a win is checked after removal. You cannot place on an occupied cell, including the oldest one. A round is drawn after 120 moves. Numbers on symbols show their order. RL agents use learned Q values, without search or hidden tactical rules. Train / continue opens an English training window. Load X and Load O let machines use different models. Setup changes apply when you press New game. Restart repeats the current setup.
+error	Error
+model_error	Cannot read model. Select a valid .ttq.gz checkpoint for {variant}.
+saved	Saved: {path}
+save_model	Save model
+load_model	Load model
+model_file	Q-learning checkpoint
+statistics	RL STATISTICS
+training_numbers	TRAINING / {side} MODEL
+episodes	Episodes
+states	Known states
+steps	Environment steps
+epsilon	Exploration epsilon
+seconds	Training seconds
+td_mse	Mean squared TD error
+eval_title	EVALUATION AGAINST RANDOM / {side} MODEL
+evaluate	Evaluate 500 games
+evaluating	Evaluating...
+eval_result	{wins} wins / {draws} draws / {losses} losses
+eval_rates	Win {win:.1%} | Draw {draw:.1%} | Loss {loss:.1%} | Score {score:.1%}
+eval_note	Sides alternate. Seed 1042. Time-limit draws: {n}.
+eval_empty	Press Evaluate to measure this model against random play.
+export_csv	Export training CSV
+export_graph	Export charts (SVG)
+refresh	Refresh
+close	Close
+no_history	No training history yet
+chart_td	TD error / training
+chart_rates	Evaluation vs random
+chart_epsilon	Exploration / training
+chart_length	Mean game length
+axis_episode	Episode
+axis_moves	Moves
+axis_rate	Rate
+legend_win	Win
+legend_draw	Draw
+legend_loss	Loss
+pending	Setup changes apply with New game
+exit	Exit
+confirm_training	Training is still running. Use Stop & save in its window, then close the app.

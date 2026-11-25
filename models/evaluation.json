@@ -1,0 +1,68 @@
+{
+  "python": "3.9.13",
+  "platform": "macOS-26.6.2-x86_64-i386-64bit",
+  "evaluation_seed": 1042,
+  "games_per_model": 2000,
+  "models": {
+    "classic": {
+      "episodes": 60000,
+      "states": 627,
+      "steps": 478756,
+      "training_seconds": 7.190245958,
+      "trained": {
+        "games": 2000,
+        "wins": 1734,
+        "draws": 266,
+        "losses": 0,
+        "truncated": 0,
+        "win_rate": 0.867,
+        "draw_rate": 0.133,
+        "loss_rate": 0.0,
+        "score_rate": 0.9335,
+        "seed": 1042
+      },
+      "untrained": {
+        "games": 2000,
+        "wins": 851,
+        "draws": 272,
+        "losses": 877,
+        "truncated": 0,
+        "win_rate": 0.4255,
+        "draw_rate": 0.136,
+        "loss_rate": 0.4385,
+        "score_rate": 0.4935,
+        "seed": 1042
+      }
+    },
+    "infinite": {
+      "episodes": 100000,
+      "states": 8344,
+      "steps": 1054383,
+      "training_seconds": 19.179025541999998,
+      "trained": {
+        "games": 2000,
+        "wins": 2000,
+        "draws": 0,
+        "losses": 0,
+        "truncated": 0,
+        "win_rate": 1.0,
+        "draw_rate": 0.0,
+        "loss_rate": 0.0,
+        "score_rate": 1.0,
+        "seed": 1042
+      },
+      "untrained": {
+        "games": 2000,
+        "wins": 1018,
+        "draws": 0,
+        "losses": 982,
+        "truncated": 0,
+        "win_rate": 0.509,
+        "draw_rate": 0.0,
+        "loss_rate": 0.491,
+        "score_rate": 0.509,
+        "seed": 1042
+      }
+    }
+  }
+}
